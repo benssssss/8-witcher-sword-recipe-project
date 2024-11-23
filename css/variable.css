@@ -11,4 +11,7 @@
     --h1-size: 45px;
     --h2-size: 35px;
     --h3-size: 30px;
+
+    --mobile-width: 350px;
+    --mobile-padding: 1.8rem;
 }

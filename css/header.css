@@ -1,13 +1,11 @@
-.header {
-    background: url('../src/images/header-background-mobile.png') no-repeat center;
+.header-section {
+    background: url('../src/images/header-background-mobile.png') no-repeat;
     background-size: cover;
-    max-width: 960px;
-    height: 350px;
-    display: flex;
+    width: var(--mobile-width);
+    height: 250px;
 }
 
 .logo-box .logo {
     margin-top: 3rem;
     height: 45px;
 }
-

@@ -1,11 +1,21 @@
-.main-hero {
-    
+.main-section {
+    background-color: cadetblue;
+    width: var(--mobile-width);
+    flex-direction: column;
+    padding: var(--mobile-padding);
+    text-align: center;
 }
 
-.main-hero .title {
-
+.main-section .title {
+    font-size: var(--h1-size);
+    font-family: var(--font-bold);
+    width: 300px;
 }
 
-.main-hero .description {
-
+.main-section .description {
+    font-family: var(--font-regular);
+    font-size: 1.8rem;
+    color: var(--medium-silver);
+    width: 300px;
+    margin-top: .8rem;
 }
