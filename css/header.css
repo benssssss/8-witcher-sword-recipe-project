@@ -1,0 +1,25 @@
+header {
+    background-color: black;
+}
+
+h1 {
+    font-family: var(--font-bold);
+    color: var(--ice-white);
+    font-size: var(--h1-size);
+}
+
+h2 {
+    font-family: var(--font-light);
+    color: var(--reverse-color);
+    font-size: var(--h2-size);
+}
+
+h3 {
+    font-family: var(--font-medium);
+    color: var(--medium-silver);
+    font-size: var(--h3-size);
+}
+
+h4 {
+    font-family: var(--font-regular)
+}
