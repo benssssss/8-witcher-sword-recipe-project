@@ -1,6 +1,9 @@
-.title {
+.ingredient-title {
     align-items: center;
     justify-content: center;
+}
+
+.ingredient-menu-title {
     font-size: var(--h2-size);
 }
 
@@ -10,7 +13,7 @@
 
 .ingredient-text {
     flex-direction: column;
-    margin-top: 1rem;
+    margin: 1.5rem 0;
     font-size: 2.4rem;
     gap: .6rem;
 }
@@ -18,4 +21,3 @@
 .ingredient-text span {
     color: var(--reverse-color);
 }
-
