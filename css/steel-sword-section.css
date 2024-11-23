@@ -14,4 +14,23 @@
     color: var(--reverse-color);
     font-family: var(--font-light);
     font-size: 1.6rem;
+    margin-top: .2rem;
 }
+
+.section-ideal {
+    background-color: brown;
+    margin-top: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-ideal .ideal-text {
+    font-size: var(--h2-size);
+    font-family: var(--font-bold);
+}
+
+.section-ideal .creature-name {
+    font-size: var(--h3-size);
+    font-family: var(--font-bold);
+}
+

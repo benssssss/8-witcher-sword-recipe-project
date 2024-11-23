@@ -1,0 +1,33 @@
+.section-ideal .creature-picture {
+    height: 115px;
+    position: relative;
+}
+
+.decorative-left,
+.decorative-right {
+    height: 130px;
+}
+
+.decorative-top,
+.decorative-bottom {
+    position: absolute;
+    width: 160px;
+    height: 5px;
+    background-color: var(--medium-silver);
+}
+
+.decorative-top {
+    bottom: -87px;
+}
+
+.decorative-bottom {
+    bottom: 40px;
+}
+
+.decorative-right {
+    transform: rotate(180deg);
+}
+
+.box-with-border-silver {
+    padding: 2rem;
+}
