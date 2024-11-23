@@ -1,0 +1,40 @@
+@font-face {
+    font-family: FFGoodPro-Bold;
+    src: url("../src/fonts/ffgood/FFGoodPro-Bold.ttf");
+    }
+
+    @font-face {
+    font-family: “Good-Light;
+    src: url("../src/fonts/ffgood/FFGoodPro-Light.ttf");
+    }
+
+    @font-face {
+    font-family: “Good-Medium;
+    src: url("../src/fonts/ffgood/FFGoodPro-Medium.ttf");
+    }
+
+    @font-face {
+    font-family: “Good-Regular;
+    src: url("../src/fonts/ffgood/FFGoodPro-Regular.ttf");
+    }
+    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
