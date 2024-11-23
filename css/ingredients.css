@@ -3,10 +3,6 @@
     justify-content: center;
 }
 
-.ingredient-menu-title {
-    font-size: var(--h2-size);
-}
-
 .ingredient-text-image {
     height: 65px;
 }

@@ -4,27 +4,10 @@
     padding: var(--mobile-padding);
 }
 
-.steel-section .title {
-    font-size: var(--h3-size);
-    font-family: var(--font-bold);
-}
-
-.steel-section .weapon-class {
-    color: var(--reverse-color);
-    font-family: var(--font-light);
-    font-size: 1.6rem;
-    margin-top: .2rem;
-}
-
 .section-ideal {
     margin: 2rem 0 1.1rem 0;
     flex-direction: column;
     text-align: center;
-}
-
-.section-ideal .ideal-text {
-    font-size: var(--h2-size);
-    font-family: var(--font-bold);
 }
 
 .section-ideal .creature-name {
@@ -32,4 +15,3 @@
     font-family: var(--font-bold);
     margin-top: 1.5rem;
 }
-

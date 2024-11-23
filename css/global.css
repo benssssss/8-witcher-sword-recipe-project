@@ -6,7 +6,7 @@ html {
 body {
     font-family: var(--font-medium);
     font-size: 1rem;
-    background-color: #181A1B
+    background-color: #181A1B;
 }
 
 .display-flex {
@@ -22,5 +22,30 @@ body {
 }
 
 .decorative-arrabesco {
+    margin: 2rem 0;
+}
+
+.decorative-arrabesco-prata {
+    width: 70%;
     margin-top: 2rem;
+}
+
+.title-h2 {
+    font-size: var(--h2-size);
+    font-family: var(--font-bold);
+}
+
+.image-box {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: #cacaca 3px solid;
+    margin-bottom: .4rem;
+}
+
+.light-text {
+    color: var(--reverse-color);
+    font-family: var(--font-light);
+    font-size: 1.6rem;
+    margin-top: .2rem;
 }

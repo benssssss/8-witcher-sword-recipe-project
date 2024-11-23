@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-section.css">
     <link rel="stylesheet" href="css/steel-sword-section.css">
+    <link rel="stylesheet" href="css/local-section.css">
+    <link rel="stylesheet" href="css/statistic-section.css">
 
 </head>
 
@@ -31,17 +33,17 @@
         </section>
 
         <section class="steel-section display-flex">
-            <picture class="image-box"><img class="steel-sword-image" src="src/images/steel-sword.jpg"
+            <picture class="image-box"><img class="image" src="src/images/steel-sword.jpg"
                     alt="Foto da Espada de Aço na mão do Geralt"></picture>
-            <h3 class="title">ESPADA DE AÇO</h3>
-            <p class="weapon-class">(WITCHER GEAR)</p>
+            <h3 class="title-h2">ESPADA DE AÇO</h3>
+            <p class="light-text">(WITCHER GEAR)</p>
 
             <div class="decorative-arrabesco">
                 <img src="src/images/arrabesco-small.png" alt="Arrabesco dourado">
             </div>
 
             <div class="section-ideal display-flex justify-content">
-                <h2 class="ideal-text">IDEAL PARA</h2>
+                <h2 class="title-h2">IDEAL PARA</h2>
 
                 <div class="decorative-box">
 
@@ -64,7 +66,7 @@
             <div class="ingredients-section">
                 <div class="ingredient-title display-flex">
                     <img class="ingredient-text-image" src="src/images/ingredient-icon.png" alt="">
-                    <h2 class="ingredient-menu-title">INGREDIENTES</h2>
+                    <h2 class="title-h2">INGREDIENTES</h2>
                 </div>
 
                 <div class="decorative-box leather-straps">
@@ -77,7 +79,7 @@
                         <div class="decorative-bottom"></div>
                     </div>
 
-                    <div class="decorative-arrabesco">
+                    <div class="decorative-arrabesco-prata">
                         <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
                     </div>
 
@@ -86,71 +88,131 @@
                         <span>1X
                         </span>
                     </div>
+                </div>
 
-                    <div class="decorative-box steel-ingot">
+                <div class="decorative-box steel-ingot">
 
-                        <div class="image-decorated-box">
-                            <div class="decorative-top"></div>
-                            <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
-                            <img class="image" src="src/images/ingot_steel.png" alt="">
-                            <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
-                            <div class="decorative-bottom"></div>
-                        </div>
+                    <div class="image-decorated-box">
+                        <div class="decorative-top"></div>
+                        <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
+                        <img class="image" src="src/images/ingot_steel.png" alt="">
+                        <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
+                        <div class="decorative-bottom"></div>
+                    </div>
 
-                        <div class="decorative-arrabesco">
-                            <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
-                        </div>
+                    <div class="decorative-arrabesco-prata">
+                        <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
+                    </div>
 
-                        <div class="ingredient-text display-flex justify-content align-items">
-                            <p>LINGOTE DE AÇO</p>
-                            <span>2X
-                            </span>
-                        </div>
+                    <div class="ingredient-text display-flex justify-content align-items">
+                        <p>LINGOTE DE AÇO</p>
+                        <span>2X
+                        </span>
+                    </div>
+                </div>
 
-                        <div class="decorative-box monster-brain">
+                <div class="decorative-box monster-brain">
 
-                            <div class="image-decorated-box">
-                                <div class="decorative-top"></div>
-                                <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
-                                <img class="image" src="src/images/brain_monstrous.png" alt="">
-                                <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
-                                <div class="decorative-bottom"></div>
-                            </div>
+                    <div class="image-decorated-box">
+                        <div class="decorative-top"></div>
+                        <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
+                        <img class="image" src="src/images/brain_monstrous.png" alt="">
+                        <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
+                        <div class="decorative-bottom"></div>
+                    </div>
 
-                            <div class="decorative-arrabesco">
-                                <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
-                            </div>
+                    <div class="decorative-arrabesco-prata">
+                        <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
+                    </div>
 
-                            <div class="ingredient-text display-flex justify-content align-items">
-                                <p>CÉREBRO DE MONSTRO</p>
-                                <span>1X
-                                </span>
-                            </div>
+                    <div class="ingredient-text display-flex justify-content align-items">
+                        <p>CÉREBRO DE MONSTRO</p>
+                        <span>1X
+                        </span>
+                    </div>
+                </div>
 
-                            <div class="decorative-box monster-eye">
+                <div class="decorative-box monster-eye">
 
-                                <div class="image-decorated-box">
-                                    <div class="decorative-top"></div>
-                                    <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
-                                    <img class="image" src="src/images/eye_monstrous.png" alt="">
-                                    <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
-                                    <div class="decorative-bottom"></div>
-                                </div>
+                    <div class="image-decorated-box">
+                        <div class="decorative-top"></div>
+                        <img class="decorative-left" src="src/images/margin-decorative.png" alt="">
+                        <img class="image" src="src/images/eye_monstrous.png" alt="">
+                        <img class="decorative-right" src="src/images/margin-decorative.png" alt="">
+                        <div class="decorative-bottom"></div>
+                    </div>
 
-                                <div class="decorative-arrabesco">
-                                    <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
-                                </div>
+                    <div class="decorative-arrabesco-prata">
+                        <img src="src/images/arabesco-small-silver.png" alt="Arrabesco prata">
+                    </div>
 
-                                <div class="ingredient-text display-flex justify-content align-items">
-                                    <p>LINGOTE DE AÇO</p>
-                                    <span>2X
-                                    </span>
-                                </div>
-                            </div>
+                    <div class="ingredient-text display-flex justify-content align-items">
+                        <p>LINGOTE DE AÇO</p>
+                        <span>2X
+                        </span>
+                    </div>
+                </div>
 
-                            <div class="decorative-arrabesco">
-                                <img src="src/images/arrabesco-small.png" alt="Arrabesco prata">
-                            </div>
+                <div class="">
+                    <img src="src/images/arrabesco-small.png" alt="Arrabesco prata">
+                </div>
+            </div>
+
+            <!-- -------- local --------- -->
+
+            <div class="local-section">
+                <div class="local-text display-flex justify-content">
+                    <h2 class="title-h2">LOCALIZAÇÃO</h2>
+                    <img class="loc-icon" src="src/images/loc-icon.png" alt="">
+                </div>
+
+                <div class="image-description">
+                    <picture class="image-box"><img class="image" src="src/images/steel-sword-loc.png"
+                            alt="Foto da localização do grimorio da espada de aço"></picture>
+                    <p class="light-text">Encontrada em uma torre abandonada de
+                        HindHold, leste de Novigrad</p>
+                </div>
+
+                <div class="decorative-arrabesco">
+                    <img src="src/images/arrabesco-small.png" alt="Arrabesco">
+                </div>
+            </div>
+
+            <!-- -------- estatisticas --------- -->
+
+            <div class="estatisticas display-flex justify-content">
+
+                <div class="estatisticas-text">
+                    <h2 class="title-h2">ESTATÍSTICAS</h2>
+                    <h3 class="title-h2">
+                        AÇO
+                    </h3>
+                </div>
+
+                <div class="tabela-statistics">
+
+                    <div class="dano display-flex">
+                        <p class="texto-stats">Dano</p>
+                        <span class="info">87-107</span>
+                    </div>
+
+                    <div class="sinal display-flex">
+                        <p class="texto-stats">Intensidade de Sinal</p>
+                        <span class="info">+5%</span>
+                    </div>
+
+                    <div class="adicional display-flex">
+                        <p class="texto-stats">Xp Adicional. Humanoides</p>
+                        <span class="info">+5%</span>
+                    </div>
+                </div>
+
+                <div class="decorative-arrabesco">
+                    <img src="src/images/arrabesco-small.png" alt="Arrabesco">
+                </div>
+
+            </div>
+
 
         </section>
         <section class="silver-section"></section>
