@@ -1,33 +1,43 @@
-.section-ideal .creature-picture {
-    height: 115px;
-    position: relative;
+.decorative-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.2rem;
 }
 
-.decorative-left,
-.decorative-right {
+.image-decorated-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image-decorated-box .image {
+    height: 100px;
+}
+
+.image-decorated-box .decorative-top,
+.image-decorated-box .decorative-bottom {
+    background-color: var(--medium-silver);
+    width: 138px;
+    height: 5px;
+    position: absolute;
+    left: 2px;
+}
+
+.image-decorated-box .decorative-bottom {
+    top: 0px;
+}
+
+.image-decorated-box .decorative-top {
+    bottom: 0px;
+}
+
+.image-decorated-box .decorative-left,
+.image-decorated-box .decorative-right {
     height: 130px;
 }
 
-.decorative-top,
-.decorative-bottom {
-    position: absolute;
-    width: 160px;
-    height: 5px;
-    background-color: var(--medium-silver);
-}
-
-.decorative-top {
-    bottom: -87px;
-}
-
-.decorative-bottom {
-    bottom: 40px;
-}
-
-.decorative-right {
+.image-decorated-box .decorative-right {
     transform: rotate(180deg);
-}
-
-.box-with-border-silver {
-    padding: 2rem;
 }

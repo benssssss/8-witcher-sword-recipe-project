@@ -1,0 +1,21 @@
+.title {
+    align-items: center;
+    justify-content: center;
+    font-size: var(--h2-size);
+}
+
+.ingredient-text-image {
+    height: 65px;
+}
+
+.ingredient-text {
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 2.4rem;
+    gap: .6rem;
+}
+
+.ingredient-text span {
+    color: var(--reverse-color);
+}
+

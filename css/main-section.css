@@ -1,5 +1,4 @@
 .main-section {
-    background-color: cadetblue;
     width: var(--mobile-width);
     flex-direction: column;
     padding: var(--mobile-padding);

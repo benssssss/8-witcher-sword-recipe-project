@@ -1,5 +1,4 @@
 .steel-section {
-    background-color: rgb(51, 47, 41);
     flex-direction: column;
     width: var(--mobile-width);
     padding: var(--mobile-padding);
@@ -18,8 +17,7 @@
 }
 
 .section-ideal {
-    background-color: brown;
-    margin-top: 2rem;
+    margin: 2rem 0 1.1rem 0;
     flex-direction: column;
     text-align: center;
 }
@@ -32,5 +30,6 @@
 .section-ideal .creature-name {
     font-size: var(--h3-size);
     font-family: var(--font-bold);
+    margin-top: 1.5rem;
 }
 
