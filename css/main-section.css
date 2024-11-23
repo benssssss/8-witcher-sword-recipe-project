@@ -9,13 +9,11 @@
 .main-section .title {
     font-size: var(--h1-size);
     font-family: var(--font-bold);
-    width: 300px;
 }
 
 .main-section .description {
     font-family: var(--font-regular);
     font-size: 1.8rem;
     color: var(--medium-silver);
-    width: 300px;
-    margin-top: .8rem;
+    margin-top: .5rem;
 }

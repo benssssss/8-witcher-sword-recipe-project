@@ -1,0 +1,17 @@
+.steel-section {
+    background-color: rgb(51, 47, 41);
+    flex-direction: column;
+    width: var(--mobile-width);
+    padding: var(--mobile-padding);
+}
+
+.steel-section .title {
+    font-size: var(--h3-size);
+    font-family: var(--font-bold);
+}
+
+.steel-section .weapon-class {
+    color: var(--reverse-color);
+    font-family: var(--font-light);
+    font-size: 1.6rem;
+}
