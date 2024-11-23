@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+    color: var(--ice-white);
+}
+
+body {
+    font-family: var(--font-medium);
+    font-size: 1rem;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
