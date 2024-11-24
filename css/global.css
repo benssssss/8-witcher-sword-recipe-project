@@ -30,22 +30,37 @@ body {
     margin-top: 2rem;
 }
 
-.title-h2 {
+.subtitle, .creature-name, .main-title {
+    letter-spacing: 1px;
+}
+
+.transition-between {
+    margin-top: 4rem;
+}
+
+.subtitle {
     font-size: var(--h2-size);
     font-family: var(--font-bold);
 }
 
-.image-box {
-    display: block;
-    height: 100%;
-    width: 100%;
-    border: #cacaca 3px solid;
-    margin-bottom: .4rem;
+.creature-name {
+    font-size: var(--h3-size);
+    margin-top: 1.5rem;
+    font-family: var(--font-bold);
 }
 
-.light-text {
+.light-reverse-text {
     color: var(--reverse-color);
     font-family: var(--font-light);
     font-size: 1.6rem;
     margin-top: .2rem;
 }
+
+.image-box {
+    display: block;
+
+    width: 100%;
+    border: #cacaca 3px solid;
+    margin-bottom: .4rem;
+}
+

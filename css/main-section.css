@@ -5,12 +5,12 @@
     text-align: center;
 }
 
-.main-section .title {
+.main-title {
     font-size: var(--h1-size);
     font-family: var(--font-bold);
 }
 
-.main-section .description {
+.main-description {
     font-family: var(--font-regular);
     font-size: 1.8rem;
     color: var(--medium-silver);

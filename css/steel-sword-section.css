@@ -1,4 +1,4 @@
-.steel-section {
+.section {
     flex-direction: column;
     width: var(--mobile-width);
     padding: var(--mobile-padding);
@@ -8,10 +8,4 @@
     margin: 2rem 0 1.1rem 0;
     flex-direction: column;
     text-align: center;
-}
-
-.section-ideal .creature-name {
-    font-size: var(--h3-size);
-    font-family: var(--font-bold);
-    margin-top: 1.5rem;
 }

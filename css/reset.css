@@ -1,23 +1,23 @@
 @font-face {
     font-family: FFGoodPro-Bold;
     src: url("../src/fonts/ffgood/FFGoodPro-Bold.ttf");
-    }
+}
 
-    @font-face {
+@font-face {
     font-family: FFGoodPro-Light;
     src: url("../src/fonts/ffgood/FFGoodPro-Light.ttf");
-    }
+}
 
-    @font-face {
+@font-face {
     font-family: FFGoodPro-Medium;
     src: url("../src/fonts/ffgood/FFGoodPro-Medium.ttf");
-    }
+}
 
-    @font-face {
+@font-face {
     font-family: FFGoodPro-Regular;
     src: url("../src/fonts/ffgood/FFGoodPro-Regular.ttf");
-    }
-    
+}
+
 * {
     padding: 0;
     margin: 0;

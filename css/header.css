@@ -1,7 +1,6 @@
 .header-section {
-    background: url('../src/images/header-background-mobile.png') no-repeat;
+    background: url('../src/images/header-background-mobile.png') no-repeat center;
     background-size: cover;
-    width: var(--mobile-width);
     height: 250px;
 }
 
