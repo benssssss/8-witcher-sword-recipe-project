@@ -2,12 +2,7 @@
     background: url('../src/images/header-background-mobile.png') no-repeat center;
     background-size: cover;
     height: 250px;
-    width: 100%;
-}
-
-.logo-box {
-    display: flex;
-    align-items: center;
+    width: var(--total-width);
 }
 
 .logo-box .logo {

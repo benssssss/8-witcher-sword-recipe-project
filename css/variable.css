@@ -1,17 +1,19 @@
 :root {
-    --font-bold: FFGoodPro-Bold;
-    --font-light: FFGoodPro-Light;
-    --font-medium: FFGoodPro-Medium;
-    --font-regular: FFGoodPro-Regular;
+    --font-bold: FFGoodPro-Bold, sans-serif;
+    --font-light: FFGoodPro-Light, sans-serif;
+    --font-medium: FFGoodPro-Medium, sans-serif;
+    --font-regular: FFGoodPro-Regular, sans-serif;
 
     --ice-white: #F2F9F8;
     --reverse-color: #E1A735;
     --medium-silver: #CACACA;
 
-    --h1-size: 42px;
+    --h1-size: 39px;
     --h2-size: 35px;
     --h3-size: 30px;
 
     --mobile-width: 350px;
     --mobile-padding: 2.8rem;
+
+    --total-width: 100%;
 }

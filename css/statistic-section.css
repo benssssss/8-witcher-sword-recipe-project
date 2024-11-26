@@ -1,13 +1,11 @@
 .statistics {
     flex-direction: column;
-    text-align: center;
 }
 
 .statistics .statistics-text {
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 1rem;
+    align-self: center;
 }
 
 .text-name, .statistic-amount {

@@ -1,6 +1,5 @@
 .responsive {
-    width: 100%;
-    display: flex;
+    width: var(--total-width);
     flex-direction: column;
     justify-content: center;
     align-items: center;

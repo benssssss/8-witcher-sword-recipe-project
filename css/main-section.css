@@ -1,10 +1,7 @@
 .main-section {
-    width: var(--mobile-width);
     padding: var(--mobile-padding);
-    display: flex;
-    flex-direction: column;
+    width: var(--total-width);
     text-align: center;
-    width: 100%;
 }
 
 .main-title {
@@ -14,8 +11,8 @@
 
 .main-description {
     font-family: var(--font-regular);
-    font-size: 1.8rem;
     color: var(--medium-silver);
+    font-size: 1.8rem;
     margin-top: .5rem;
 }
 
@@ -27,7 +24,7 @@
 
 @media(min-width: 380px) {
     .main-title {
-        font-size: 4.7rem;
+        font-size: 4.3rem;
     }
 
     .main-description {
@@ -38,22 +35,18 @@
 
 @media(min-width: 450px) {
     .main-title {
-        font-size: 5.2rem;
+        font-size: 4.7rem;
     }
 
     .main-description {
         font-size: 2.1rem;
         margin-top: 1.5rem;
     }
-
-    .main-section {
-        width: 100%;
-    }
 }
 
 @media(min-width: 620px) {
     .main-title {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .main-description {

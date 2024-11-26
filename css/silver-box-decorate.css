@@ -1,9 +1,13 @@
-.decorative-box {
+.decorative-box, .decorative-box-creature {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 5rem 0;
+    margin: 4rem 0;
+}
+
+.decorative-box-creature {
+    margin: 1.3rem 0;
 }
 
 .image-decorated-box {

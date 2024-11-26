@@ -6,8 +6,10 @@ html {
 body {
     font-family: var(--font-medium);
     font-size: 1rem;
-    width: 100%;
+    width: var(--total-width)
 }
+
+
 
 main {
     background: url('../src/images/backgroud-desktop.png') no-repeat;
@@ -19,11 +21,19 @@ main {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .justify-content {
     justify-content: center;
 }
 
-.align-items {
+.text-align-center {
+    text-align: center;
+}
+
+.align-items-center {
     align-items: center;
 }
 
