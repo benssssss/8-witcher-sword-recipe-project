@@ -9,3 +9,9 @@
     flex-direction: column;
     text-align: center;
 }
+
+@media(min-width: 450px) {
+    .section {
+        width: 450px;
+    }
+}
