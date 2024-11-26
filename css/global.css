@@ -7,6 +7,7 @@ body {
     font-family: var(--font-medium);
     font-size: 1rem;
     background-color: #181A1B;
+    width: 100%;
 }
 
 .display-flex {
@@ -30,12 +31,14 @@ body {
     margin-top: 2rem;
 }
 
-.subtitle, .creature-name, .main-title {
-    letter-spacing: 1px;
-}
-
 .transition-between {
     margin-top: 4rem;
+}
+
+.subtitle,
+.creature-name,
+.main-title {
+    letter-spacing: 1px;
 }
 
 .subtitle {
@@ -56,10 +59,31 @@ body {
     margin-top: .2rem;
 }
 
+@media(min-width: 450px) {
+    .light-reverse-text {
+        font-size: 2rem;
+    }
+}
+
+@media(min-width: 620px) {
+    .light-reverse-text {
+        font-size: 2.7rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .light-reverse-text {
+        font-size: 1.8rem;
+    }
+
+    .transition-between {
+        display: none;
+    }
+}
+
 .image-box {
     display: block;
     width: 100%;
     border: #cacaca 3px solid;
     margin-bottom: .4rem;
 }
-
