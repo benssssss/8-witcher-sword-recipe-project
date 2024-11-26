@@ -23,9 +23,9 @@
 
 ## Planejamento
 
-1 - Fazer desenho de caixas (grid-flex) antes de escrever qualquer código, definindo quais elementos serão usados (desenho no pdf abaixo)
+1 - Fazer desenho de caixas (grid-flex) antes de escrever qualquer código, definindo quais elementos serão usados (desenho no PDF abaixo)
 
-### Aqui há um pdf com todos os assets, design, planejamento e referência de layout
+### Aqui há um PDF com todos os assets, design, planejamento e referência de layout
 
 ([Design-receita-witcher3-assets](https://drive.google.com/file/d/12rbfeaBVIdIjNieM98v0ioz2KlD6WhAn/view?usp=sharing))
 
@@ -37,11 +37,11 @@
 
 ### Implementações
 
-- Usei varios arquivos .css para diferentes partes da página, assim deixando o código mais organizado
+- Usei vários arquivos .css para diferentes partes da página, assim deixando o código mais organizado
 
 ---
 
-- Usei um arquivo global.css para escrever códigos que são usados varias vezes no projeto, assim quando necessario era só adicionar uma classe no html, ao inves de escrever todo o código novamente no css, diminuindo a quantia de linhas e confusão
+- Usei um arquivo global.css para escrever códigos usados várias vezes no projeto, assim quando necessário era só adicionar uma classe no HTML, ao invés de escrever todo o código novamente no CSS, diminuindo a quantia de linhas e confusão
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-- Usei um arquivo separado para fazer um container para a parte do quadro, assim facilitando o uso, apenas alterando a foto interna no .html
+- Usei um arquivo separado para fazer um contêiner para a parte do quadro, assim facilitando o uso, apenas alterando a foto interna no .html
 
 ![alt text](../main/readme/image.png)
 
@@ -137,9 +137,9 @@
 
 ---
 
-## 3 - Arrabescos ficaram sobrando na parte inferior
+## 3 - Arabescos ficaram sobrando na parte inferior
 
-- Para a divisão das duas seções usei um arrabesco prata na ligação entre as duas seções
+- Para a divisão das duas seções usei um arabesco prata na ligação entre as duas seções
 
 ![alt text](../main/readme/image-8.png)
 
