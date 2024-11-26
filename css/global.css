@@ -6,8 +6,13 @@ html {
 body {
     font-family: var(--font-medium);
     font-size: 1rem;
-    background-color: #181A1B;
     width: 100%;
+}
+
+main {
+    background: url('../src/images/backgroud-desktop.png') no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
 
 .display-flex {
@@ -23,7 +28,7 @@ body {
 }
 
 .decorative-arrabesco {
-    margin: 2rem 0;
+    margin: 5rem 0;
 }
 
 .decorative-arrabesco-prata {
